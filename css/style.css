@@ -1,0 +1,76 @@
+.wrapper {
+  height: 100%;
+  min-height: 100%;
+  width: 100%; }
+
+.header {
+  padding: 10px 0; }
+
+.brand {
+  position: relative;
+  float: left; }
+  .brand .logo, .brand .logo a {
+    background: url('../img/logo-company.png?1379716662') no-repeat;
+    display: block;
+    height: 39px;
+    margin: 10px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 142px; }
+    .brand .logo a {
+      background: transparent; }
+
+.icon {
+  background: url('../img/social-icons.png?1359417118') no-repeat; }
+
+.navigation {
+  float: right;
+  text-align: center; }
+  .navigation ul {
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle; }
+    .navigation ul li {
+      border-spacing: 10px;
+      display: inline-block; }
+      .navigation ul li a {
+        display: block;
+        text-decoration: none;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s; }
+  .navigation #menu li a {
+    border: 1px solid transparent;
+    color: #747474;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px; }
+    .navigation #menu li a:hover {
+      border-color: #d5d5d5; }
+  .navigation #menu-social li {
+    padding-bottom: 5px; }
+    .navigation #menu-social li a {
+      height: 28px;
+      width: 29px;
+      text-indent: -9999px;
+      margin: 1px; }
+      .navigation #menu-social li a.fb {
+        background-position: 0px 0px; }
+        .navigation #menu-social li a.fb:hover {
+          background-position: 0px -38px; }
+      .navigation #menu-social li a.tw {
+        background-position: 0px -76px; }
+        .navigation #menu-social li a.tw:hover {
+          background-position: 0px -114px; }
+
+.welcome {
+  text-align: center; }
